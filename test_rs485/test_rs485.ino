@@ -5,7 +5,7 @@ const int DI = 5; // Driver Input
 
 void setup() {
   // put your setup code here, to run once:
-  Serial.begin(9600);
+  Serial.begin(38400);
   pinMode(RO, INPUT_PULLUP);
   pinMode(RE, OUTPUT);
   pinMode(DE, OUTPUT);
