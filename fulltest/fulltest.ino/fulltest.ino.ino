@@ -1,7 +1,7 @@
 /*
  * Testing device for data collecting terminal (DCT)
  * based on Arduino
- * Arthor: Zhanhuai Huang
+ * Author: Zhanhuai Huang
  */
 
 /*
@@ -69,6 +69,7 @@ void loop() {
       // Wait for next polling
       // Interval between fetching \approx 83.3ms
       delay(50);
+      break;
     }
   }
 }
